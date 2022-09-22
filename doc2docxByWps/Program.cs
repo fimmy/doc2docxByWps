@@ -15,6 +15,7 @@ namespace doc2docxByWps
             if(args.Length != 2)
             {
                 Console.WriteLine("参数有误");
+                return;
             }
             string srcPath=args[0];
             string destPath=args[1];
